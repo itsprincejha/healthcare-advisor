@@ -7,7 +7,7 @@ load_dotenv() # Load the environment variables
 import pandas as pd
 
 # Set up the Gemini API key in VS Code
-genai.configure(api_key = os.getenv('GOOGLE-API-KEY'))
+genai.configure(api_key = os.getenv('GOOGLE_API_KEY'))
 
 
 #Streamlit Page
